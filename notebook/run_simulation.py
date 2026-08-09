@@ -46,31 +46,10 @@ print("Elapsed time:", time.time()-start)
 save_multiple_runs(results)
 
 
-# In[7]:
-
-
-get_ipython().system('jupyter nbconvert --to python notebook/run_simulation.ipynb')
-
-
-# In[8]:
-
-
-from pathlib import Path
-
-print(Path.cwd())
-
-
-# In[9]:
-
-
-from pathlib import Path
-
-for p in Path.cwd().rglob("run_simulation.ipynb"):
-    print(p)
 
 
 
-# In[ ]:
+
 
 
 

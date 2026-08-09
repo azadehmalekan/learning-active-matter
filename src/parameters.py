@@ -51,5 +51,5 @@ q_l = 0.75          # light region score
 
 save_interval = 1000
 
-n_runs = 1
+n_runs = 100
 
